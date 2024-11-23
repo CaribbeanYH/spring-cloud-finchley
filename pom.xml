@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mtcarpenter</groupId>
+    <artifactId>spring-cloud-finchley</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+
+    <modules>
+        <!--spring cloud alibaba nacos 系列学习-->
+        <module>nacos-cloud-discovery-provider-example</module>         <!-- Nacos 实现服务注册与发现：服务提供方-->
+        <module>nacos-cloud-discovery-consumer-example</module>         <!-- Nacos 实现服务注册与发现：服务消费者:restTemplate-->
+        <module>nacos-cloud-discovery-consumer-feign-example</module>   <!-- Nacos 实现服务注册与发现：服务消费者:feign-->
+
+        <module>nacos-cloud-config-example</module>                     <!-- Nacos 作为配置中心 -->
+
+        <module>sentinel-cloud-example</module>                         <!-- sentinel快速入门     -->
+        <module>sentinel-cloud-view-example</module>                    <!-- sentinel 流控配置    -->
+        <module>sentinel-cloud-annotation-example</module>              <!-- sentinel @SentinelResource 注 解     -->
+        <module>sentinel-cloud-api-example</module>                     <!-- sentinel API 配置规则     -->
+
+        <module>gateway-cloud-server-example</module>                    <!-- gateway 服务端     -->
+        <module>gateway-cloud-client-route-example</module>              <!-- gateway route 路由工厂    -->
+        <module>gateway-cloud-client-filter-example</module>             <!-- gateway filter 过滤器工厂     -->
+        <module>gateway-cloud-client-global-filter-example</module>      <!-- gateway Filter和GlobalFilter     -->
+        <module>gateway-cloud-client-actuator-example</module>           <!-- gateway 端点监控(actuator)     -->
+
+
+        <module>spring-boot-admin-server-example</module>               <!-- Spring Boot Admin 服务端     -->
+        <module>spring-boot-admin-client-example</module>               <!-- Spring Boot Admin 客户端    -->
+
+        <module>spring-cloud-ribbon-server-example</module>             <!-- Spring cloud Ribbon 服务端    -->
+        <module>spring-cloud-ribbon-resttemplate-example</module>       <!-- Spring Cloud Ribbon RestTemplate    -->
+
+        <module>spring-cloud-feign-server-example</module>               <!-- Spring cloud feign 服务端    -->
+        <module>spring-cloud-feign-basic-example</module>                <!-- Spring cloud feign 客户端基本操作    -->
+
+        <module>spring-cloud-sleuth-server-example</module>             <!-- Spring cloud sleuth 服务端    -->
+        <module>spring-cloud-sleuth-client-example</module>             <!-- Spring cloud sleuth 客户端    -->
+
+        <module>spring-boot-rabbitmq-example</module>                    <!-- Spring boot rabbitmq     -->
+        <module>spring-cloud-stream-rabbitmq-example</module>            <!-- Spring cloud stream rabbitmq     -->
+
+
+        <module>spring-boot-dubbo-zookeeper-example</module>
+    </modules>
+
+</project>
